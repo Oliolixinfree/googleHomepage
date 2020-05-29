@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="./img/fav.png" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Google</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__nav">
+        <div class="header__nav-text">
+          <ul class="header__list-text">
+            <li class="header__item-text">
+              <a href="#" class="header__link-text">Почта</a>
+            </li>
+            <li class="header__item-text">
+              <a href="#" class="header__link-text">Картинки</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="header__nav-img">
+          <ul class="header__list-img">
+            <li class="header__item-img">
+              <a href="#" class="header__link-img">
+                <img class="app-link" src="./img/svg/menu.svg" alt="menu" />
+              </a>
+            </li>
+            <li class="header__item-img">
+              <a href="#" class="header__link-img"
+                ><img class="profile-link" src="./img/svg/gg.svg" alt="gg"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <div class="logo">
+        <img src="./img/svg/Google_2015_logo.svg" alt="google logo" />
+      </div>
+      <form class="search-form">
+        <fieldset class="search-form__wrap" id="border">
+          <img class="search-img" src="./img/svg/search.svg" alt="search" />
+          <input
+            id="openModal"
+            type="text"
+            class="search-form__field"
+            value=""
+          />
+          <img
+            class="close-img"
+            src="./img/svg/close-button.svg"
+            alt="clear"
+            id="clearButton"
+          />
+          <img
+            class="keyboard-img"
+            src="./img/svg/keyboard.svg"
+            alt="keyboard"
+          />
+          <img class="mic-img" src="./img/svg/google-mic.svg" alt="mic" />
+          <div class="modal" id="modal">
+            <div class="modal__content">
+              <div class="modal__content-wrap">
+                <div class="modal__content-items">
+                  <img src="./img/svg/clock.svg" alt="clock" />
+                  <p>карты</p>
+                  <a href="#">Удалить</a>
+                </div>
+                <div class="modal__content-items">
+                  <img src="./img/svg/clock.svg" alt="clock" />
+                  <p>еще что-то</p>
+                  <a href="#">Удалить</a>
+                </div>
+                <div class="modal__content-items">
+                  <img src="./img/svg/clock.svg" alt="clock" />
+                  <p>как выучить c++ за 21 день</p>
+                  <a href="#">Удалить</a>
+                </div>
+                <div class="modal__content-items">
+                  <img src="./img/svg/clock.svg" alt="clock" />
+                  <p>как вкусно готовить</p>
+                  <a href="#">Удалить</a>
+                </div>
+                <div class="modal__content-items">
+                  <img src="./img/svg/clock.svg" alt="clock" />
+                  <p>еще что-то</p>
+                  <a href="#">Удалить</a>
+                </div>
+                <div class="modal__content-items">
+                  <img src="./img/svg/clock.svg" alt="clock" />
+                  <p>как выучить c++ за 21 день</p>
+                  <a href="#">Удалить</a>
+                </div>
+                <div class="modal__content-items">
+                  <img src="./img/svg/clock.svg" alt="clock" />
+                  <p>как вкусно готовить</p>
+                  <a href="#">Удалить</a>
+                </div>
+                <div class="modal__content-items">
+                  <img src="./img/svg/clock.svg" alt="clock" />
+                  <p>еще что-то</p>
+                  <a href="#">Удалить</a>
+                </div>
+                <div class="modal__content-items">
+                  <img src="./img/svg/clock.svg" alt="clock" />
+                  <p>как выучить c++ за 21 день</p>
+                  <a href="#">Удалить</a>
+                </div>
+                <div class="modal__content-items">
+                  <img src="./img/svg/clock.svg" alt="clock" />
+                  <p>карты</p>
+                  <a href="#">Удалить</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+
+        <p class="button__wrap">
+          <input class="button__items" type="submit" value="Поиск в Google" />
+          <input class="button__items" type="submit" value="Мне повезет!" />
+        </p>
+        <div class="language__wrap">
+          Сервисы Google доступны на разных языках:
+          <a href="#" class="language__items">English</a>
+          <a href="#" class="language__items">Беларуская</a>
+        </div>
+      </form>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__location">
+        <span class="footer__location-items">Беларусь</span>
+      </div>
+      <div class="footer__other">
+        <div class="footer__about-google">
+          <span class="footer__about-google-items">
+            <a href="#">Реклама</a>
+          </span>
+          <span class="footer__about-google-items">
+            <a href="#">Для бизнеса</a></span
+          >
+          <span class="footer__about-google-items">
+            <a href="#">Все о Google</a>
+          </span>
+          <span class="footer__about-google-items">
+            <a href="#">Как работает Google Поиск</a>
+          </span>
+        </div>
+        <div class="footer__settings">
+          <span class="footer__settings-items">
+            <a href="#">Конфиденциальность</a>
+          </span>
+          <span class="footer__settings-items">
+            <a href="#">Условия</a>
+          </span>
+          <span class="footer__settings-items">
+            <a href="#">Настройки</a>
+          </span>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
